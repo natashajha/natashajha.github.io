@@ -22,4 +22,4 @@ navbar:
       href: https://www.linkedin.com/in/natasha-jha-3b9a4b7a
 
 output: distill::distill_article
-theme: revayhy.css
+theme: ABC.css
