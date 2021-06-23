@@ -2,6 +2,7 @@ name: "natashajha"
 title: "Natasha Jha"
 favicon: images/favicon.png
 base_url: https://natashajha.github.io/
+google_analytics: "G-75HL00LT6X"
 description: |
   Natasha Jha
 output_dir: "."
