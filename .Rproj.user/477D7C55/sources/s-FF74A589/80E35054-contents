@@ -9,10 +9,10 @@ output_dir: "."
 navbar:
   left:
     - text: "Research"
-      href: research.html
+          
+  href: research.html
     - text: "CV"
       href: files/CV_Jha.pdf
-      
   right:
     - icon: fa-envelope fa-lg
       href: "mailto:nj279@cornell.edu"
