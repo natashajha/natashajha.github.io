@@ -786,6 +786,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1871,7 +1872,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2412,7 +2414,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2479,7 +2481,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <h1 id="working-papers">Working Papers</h1>
-<h2 id="impact-of-dowry-on-human-capital-formation-evidence-from-india">Impact of Dowry on Human Capital Formation: Evidence from India</h2>
+<h2 id="impact-of-dowry-on-human-capital-formation-evidence-from-india"><a href="files/Dowry_and_Education.pdf" target="_blank">Impact of Dowry on Human Capital Formation: Evidence from India</a></h2>
 <p><strong><em>Abstract</em></strong>: This paper examines the consequences of sticky social norms for investments in human
 capital in the context of dowry payments and educational attainment. Using data from
 rural India the paper tests for educational impacts of a change in dowry payments brought

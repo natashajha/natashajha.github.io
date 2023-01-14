@@ -4,7 +4,7 @@ site: distill::distill_website
 ---
 # Working Papers
 
-## Impact of Dowry on Human Capital Formation: Evidence from India
+## [Impact of Dowry on Human Capital Formation: Evidence from India](files/Dowry_and_Education.pdf){target="_blank"}
 
 ***Abstract***: This paper examines the consequences of sticky social norms for investments in human
 capital in the context of dowry payments and educational attainment. Using data from
