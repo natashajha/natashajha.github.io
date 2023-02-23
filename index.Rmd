@@ -10,4 +10,4 @@ site: distill::distill_website
 
 # Hello,
 
-I am a Ph.D. candidate at Cornell University in the Applied Economics Department. I am a development economist whose research primarily focuses on human capital formation, gender, and the role of institutions. Some of my research also examines price distortions and environmental externalities associated with agricultural policies. 
+I am a Ph.D. candidate at Cornell University in the Applied Economics and Management Department. I am a development economist whose research primarily focuses on human capital formation, gender, and the role of institutions. Some of my research also examines price distortions and environmental externalities associated with agricultural policies. 
