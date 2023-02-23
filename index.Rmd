@@ -3,9 +3,11 @@ title: "Natasha Jha"
 site: distill::distill_website
 ---
 
-<center>
+<left>
 <img src="images/natasha.jpg" style="width:40%;" >
-</center>
+</left>
 <p>&nbsp;</p>  
 
-Natasha Jha is a Ph.D. student in the field of Applied Economics and Management.Natasha holds an M.A. in Economics from the Delhi School of Economics and an undergraduate degree in Economics from the University of Delhi.
+# Hello,
+
+I am a Ph.D. candidate at Cornell University in the Applied Economics Department. I am a development economist whose research primarily focuses on human capital formation, gender, and the role of institutions. Some of my research also examines price distortions and environmental externalities associated with agricultural policies. 
