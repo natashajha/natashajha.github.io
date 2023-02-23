@@ -10,9 +10,9 @@ site: distill::distill_website
 
 ## Alcohol Ban and Crime: The ABC's of the Bihar Prohibition. 
 
-With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="_blank"}, [Revathy Suryanarayana](https://revathy-suryanarayana.github.io/){target="_blank"} and [Mrithyunjayan Nilayamgode](https://economics.virginia.edu/people/profile/mn4yk){target="_blank"}
+With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="_blank"}, [Revathy Suryanarayana](https://revathy-suryanarayana.github.io/){target="_blank"} and [Mrithyunjayan Nilayamgode](https://economics.virginia.edu/people/profile/mn4yk){target="_blank"} - R&R at EDCC
 
-***Abstract***: We study the relationship between alcohol consumption and crime using the implementation of a statewide total prohibition of alcohol in the Indian state of Bihar in 2016. Testing the theoretical argument that alcohol has differential effects on different kinds of crime, we use a difference-in-differences approach and find that the prohibition led to a 0.22 standard deviation reduction in the reported incidence of violent crimes, but had no significant impact on non-violent crimes. This effect is fairly persistent over time, lasting at least three years into the ban, indicating that it is a reliable medium-term strategy to control crime. Heterogeneity tests also reveal that the effect on crime is stronger in interior districts and districts with higher baseline alcohol consumption. We also observe stronger effects in districts where a smaller proportion of the population faces religious restrictions on alcohol consumption. Since all of these subgroups indicate districts where the ban is likely to have had a larger effect on alcohol availability and consumption, we conclude that the ban affects crime through this channel rather than that of institutional changes.
+***Abstract***: We studied the relationship between alcohol consumption and crime using the implementation of a statewide total prohibition of alcohol in the Indian state of Bihar in 2016. Testing the theoretical argument that alcohol has differential effects on different kinds of crime, we used a difference-in-differences (DiD) approach and found that the prohibition led to a 0.22 standard deviation point reduction in the reported incidence of violent crimes but had no significant impact on nonviolent crimes. The effect is fairly persistent over time, with the initial impact being large enough that, on average, there is a reduction in violent crime over at least a three-year period following the ban. Heterogeneity tests revealed that the effect on crime was stronger in interior districts and districts with higher baseline alcohol consumption. We also observed stronger effects in districts where a smaller proportion of the population faced religious restrictions on alcohol consumption. Since all these subgroups indicate districts where the ban is likely to have had a larger effect on alcohol availability and consumption, we conclude that the ban affects crime through this channel rather than that of institutional changes.
 
 
 ## Gender differences in tertiary healthcare.
@@ -23,9 +23,7 @@ With [Tarun Jain](https://sites.google.com/virginia.edu/tarunjain/home?authuser=
 
 ## The Political Economy of Minimum Support Prices
 
-With Shilpa Aggarwal
+With [Shilpa Aggarwal](https://aggarwalshilpa.wixsite.com/home) and [Ishani Chatterjee](https://economics.ucsd.edu/graduate-program/about/grad-profiles/cohort%202019/Chatterjee-ishani.html)
 
-***Abstract***: We study the determination of minimum support prices within the institutional context of price support
-operations. Formally we explore the interactions between support price, procurement and electoral capture by
-the federal government through empirical analysis.
+***Abstract***:While the distortions from price controls are well-understood in theory, these may be underestimated if the controls are captured for uses beyond fixing market failures. We study this issue in the context of minimum support prices (MSP), the government of India's procurement price of food grains. We find that when a district with a historically larger area under cultivation for a crop is slated to go for elections, the central government announces a higher MSP for that crop. Since government procurement price is the same across the country, the center uses this blunt instrument only when other policy instruments are unavailable, i.e., when the incumbent state government is not aligned with the center. Even small increases in MSP can have large welfare effects as the central government spent nearly 1\% of the GDP on procurement in 2020-21.
 
