@@ -1,13 +1,14 @@
 ---
-title: "Natasha Jha"
+title: "Seungmin Lee"
 site: distill::distill_website
 ---
 
 <left>
-<img src="images/natasha.jpg" style="width:40%;" >
+<img src="images/seungmin.png" style="width:40%;" >
 </left>
 <p>&nbsp;</p>  
 
 # Hello,
 
-I am a Ph.D. candidate at Cornell University in the Applied Economics and Management Department. I am a development economist whose research primarily focuses on human capital formation, gender, and the role of institutions. Some of my research also examines price distortions and environmental externalities associated with agricultural policies. 
+I am a Ph.D. candidate in the field of Applied Economics and Management at Cornell University. My interests are in food security, development economics, public policy and applied econometrics.
+Before coming to Cornell, I received B.S. from the University of Michigan in Ann Arbor. I worked as a research assistant at Innovations for Poverty Action (IPA) and Yale University, and as a consultant at Development Impact Evaluation (DIME) at the World Bank.

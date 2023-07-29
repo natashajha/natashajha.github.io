@@ -1,24 +1,24 @@
-name: "natashajha"
+name: "eatorange"
 title: "Home"
 favicon: images/favicon.png
-base_url: https://natashajha.github.io/
+base_url: https://eatorange.github.io/
 google_analytics: "G-75HL00LT6X"
 description: |
-  Natasha Jha
+  Seungmin Lee
 output_dir: "."
 navbar:
   left:
     - text: "Research"
       href: research.html
     - text: "CV"
-      href: files/CV_Jha.pdf
+      href: files/CV_Seungmin Lee.pdf
   right:
     - icon: fa-envelope fa-lg
-      href: "mailto:nj279@cornell.edu"
+      href: "mailto:sl3235@cornell.edu"
     - icon: fa-twitter fa-lg
-      href: https://twitter.com/NatashaJha_42
+      href: https://twitter.com/Seungmi08458346
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/natasha-jha-3b9a4b7a
+      href: https://www.linkedin.com/in/seungmin-lee-2973993b
 
 output: distill::distill_article
 theme: ABC.css
