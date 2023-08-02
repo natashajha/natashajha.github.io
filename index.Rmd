@@ -8,8 +8,5 @@ site: distill::distill_website
 </left>
 <p>&nbsp;</p>  
 
-# Hello,
-(2023-07) This page is currently under construction.
-
 I am a Ph.D. candidate in the field of Applied Economics and Management at Cornell University. My interests are in food security, development economics, public policy and applied econometrics.
 Before coming to Cornell, I received B.S. from the University of Michigan in Ann Arbor. I worked as a research assistant at Innovations for Poverty Action (IPA) and Yale University, and as a consultant at Development Impact Evaluation (DIME) at the World Bank.
