@@ -6,7 +6,7 @@ site: distill::distill_website
 
 # Working Papers
 
-## [Food Security Dynamics in the U.S., 2001-2017](files/AJAE MS#22016_manuscript_Jun 2023 Revision.pdf){target="_blank"}
+## [Food Security Dynamics in the U.S., 2001-2017](files/AJAE_MS_22016_manuscript_Jun_2023_Revision.pdf){target="_blank"}
 
 With [Christopher B. Barrett](http://barrett.dyson.cornell.edu/){target="_blank"} and [John H. Hoddinott](https://www.human.cornell.edu/people/jfh246){target="_blank"} - *Conditionally Accepted* at *American Journal of Agricultural Economics*
 
@@ -32,7 +32,7 @@ SNAP Policy Index as an exogenous variation as an instrumental variable for prog
 
 ## Estimating Multidimensional Development Resilience
 
-With [Kibrom A. Abay](https://www.ifpri.org/profile/kibrom-abay){target="_blank"}, [Christopher B. Barrett](http://barrett.dyson.cornell.edu/){target="_blank"} and [John H. Hoddinott](https://www.human.cornell.edu/people/jfh246){target="_blank"}
+With [Kibrom A. Abay](https://www.ifpri.org/profile/kibrom-abay){target="_blank"} and [Christopher B. Barrett](http://barrett.dyson.cornell.edu/){target="_blank"}
 
 ***Abstract***: Resilience measurement has received substantial attention over the past decade or so. Existing measures, however, relate resilience to a single well-being indicator. This may be problematic in contexts where households face deprivations in multiple dimensions. We explore how sensitive estimates of household-level resilience are to the specific well-being indicator used and show that measures are only weakly correlated across different, reasonable indicators based on expenditure-based poverty, dietary diversity, and livestock asset holdings. We then introduce a multidimensional resilience measure, integrating the probabilistic moment-based resilience measurement approach with the multidimensional poverty measurement method. Applying the new method to household panel data, we show that univariate and multidimensional resilience measures can yield varied inferences on the development resilience impact of development interventions such as Ethiopia's Productive Safety Net Program.
 
