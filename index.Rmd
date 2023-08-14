@@ -4,7 +4,7 @@ site: distill::distill_website
 ---
 
 <left>
-<img src="images/seungmin.png" style="width:40%;" >
+<img src="images/seungmin.jpg" style="width:40%;" >
 </left>
 <p>&nbsp;</p>  
 
