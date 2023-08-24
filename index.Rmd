@@ -10,6 +10,6 @@ site: distill::distill_website
 <p>&nbsp;(with my nephew Teo. The larger one)</p>  
 
 
-I am a Ph.D. candidate in the field of Applied Economics and Management at Cornell University. My primary interest is measuring and estimating household welfare and its long-term dynamics through applied econometrics. My area of interest include food security, development economics and public policy.
+I am a Ph.D. candidate in the field of Applied Economics and Management at Cornell University. My primary interest is measuring and estimating household welfare - food security, poverty and resilience - and its long-term dynamics. My area of interest include development economics, applied econometrics and public policy.
 
 Before coming to Cornell, I received B.S. from the University of Michigan in Ann Arbor. I worked as a research assistant at Innovations for Poverty Action (IPA) and Yale University, and as a consultant at Development Impact Evaluation (DIME) at the World Bank.

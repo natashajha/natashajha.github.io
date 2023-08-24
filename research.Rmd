@@ -25,21 +25,23 @@ With [Ndèye Fatou Faye](http://barrett.dyson.cornell.edu/staars/fellows/ndeye.h
 
 With [Hongdi Zhao](https://hongdi-zhao.github.io/){target="_blank"}
 
+<!--
 ***Abstract***: Understanding individual and household-level welfare dynamics is very important, and it can help economics and policymakers to study and design policies to help households trapped in long-term poverty. However, long-term household-level panel data to study the poverty dynamics are often unavailable. The synthetic panel method has been used recently to estimate poverty transition using cross-sectional data, from bounded estimates under weaker assumptions to point estimates under stronger assumptions of cohort-level information. Point estimates have been very sensitive to how cohorts are defined, but there has been no clear guideline of how cohorts should be defined. This paper suggests a data-driven way to define cohorts, through clustering households with similar dynamics in the error term over the period into cohorts. Using the Peru National Household Survey on Living Conditions and Poverty (ENAHO) from 2007 to 2019, we estimate long-term poverty dynamics up to six years, testing the robustness of the estimates in the long run.
+-->
 
 ## Estimating Multidimensional Development Resilience
 
 With [Kibrom A. Abay](https://www.ifpri.org/profile/kibrom-abay){target="_blank"} and [Christopher B. Barrett](http://barrett.dyson.cornell.edu/){target="_blank"}
 
+<!--
 ***Abstract***: Resilience measurement has received substantial attention over the past decade or so. Existing measures, however, relate resilience to a single well-being indicator. This may be problematic in contexts where households face deprivations in multiple dimensions. We explore how sensitive estimates of household-level resilience are to the specific well-being indicator used and show that measures are only weakly correlated across different, reasonable indicators based on expenditure-based poverty, dietary diversity, and livestock asset holdings. We then introduce a multidimensional resilience measure, integrating the probabilistic moment-based resilience measurement approach with the multidimensional poverty measurement method. Applying the new method to household panel data, we show that univariate and multidimensional resilience measures can yield varied inferences on the development resilience impact of development interventions such as Ethiopia's Productive Safety Net Program.
+-->
 
 ## The Effects of SNAP on Estimated Food Security and Its Dynamics
 
+<!--
 ***Abstract***: This study investigates the effects of SNAP on food security and its dynamics. The study uses state-level SNAP Policy Index as an exogenous variation as an instrumental variable for program benefit redemption. Using Panel Study of Income Dynamics (PSID) data, the study observe the effects of the program participation on food security over the next 10 years, using the measures of chronic and transitory food security constructed from the Probability of Food Security (PFS), a new food insecurity measure that reflects the estimated probability that the household’s predicted food expenditures exceed the cost of the Thrifty Food Plan (TFP) for its household composition, location and survey period.
-
-<!-- ## [Social Norms and Human Capital Investment: Examining the Educational Impacts of Dowry in Rural India](files/Dowry_and_Education.pdf){target="_blank"} -->
-
-<!-- ***Abstract***: This paper examines the consequences of sticky social norms for investments in human capital in the context of dowry payments and educational attainment. Using data from rural India the paper tests for educational impacts of a change in dowry payments brought about by the 1985 amendment to the Dowry Prohibition Act. The empirical strategy uses a Difference-in-differences design along with variation in exposure to the amendment by religion. Findings document a 18\% reduction in education as well dowry paid for exposed females post amendment. Households that experienced the most change in dowry payments exhibit the largest declines in years of education. Dowry and education are considered as signals communicating adherence to traditional norms to explain these results. Declines in educational attainment increase with increases in enforcement capacity, consistent with a backlash against challenged social norms. -->
+-->
 
 ## Estimates of US Food Insecurity Dynamics: Measuring Food Insecurity Across the US with a New Synthetic Panel Approach
 
