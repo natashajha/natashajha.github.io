@@ -1,19 +1,25 @@
+
 ---
-title: "Natasha Jha"
+title: "Natasha Jha" 
 site: distill::distill_website
 ---
+```{css, echo=FALSE}
+h1, h4 {
+  text-align: center;
+}
+```
 
-
-<left>
+<center>
 <img src="images/natasha.jpg" style="width:40%;" >
-</left>
+</center>
 <p>&nbsp;</p>  
 
 
 
 
-
-# Hi!
+<left>
+ Hi!
+</left>
 
 My name is Natasha Jha. I am a postdoctoral research associate with the [Ford Program in Human Development Studies and Solidarity](https://kellogg.nd.edu/about/outreach-initiatives/ford-program-human-development-studies-and-solidarity){target="_blank"} at the [Kellogg Institute For International Studies](https://kellogg.nd.edu/){target="_blank"}. I received my PhD from Cornell University in 2023. 
 

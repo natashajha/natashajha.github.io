@@ -2164,6 +2164,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 
+  body {
+    background: rgba(230, 230, 250, 0.4)
+  }
+
   html {
     /*-- Main font sizes --*/
     --title-size:      50px;
@@ -2214,7 +2218,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-color:       #1f1f1f;                   /* edited */
     --text-size:        15px;
     --hover-color:      #787878;                   /* edited */
-    --bkgd-color:       #fff;                      /* edited */
+    --bkgd-color:       rgba(230, 230, 250, 0.4);                      /* edited */
   }
 
   .distill-site-footer {
@@ -2480,13 +2484,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<left>
+<div class="layout-chunk" data-layout="l-body">
+<style type="text/css">
+h1, h4 {
+  text-align: center;
+}
+</style>
+</div>
+<center>
 <img src="images/natasha.jpg" style="width:40%;" >
-</left>
+</center>
 <p>
  
 </p>
-<h1 id="hi">Hi!</h1>
+<p><left>
+Hi!
+</left></p>
 <p>My name is Natasha Jha. I am a postdoctoral research associate with the <a href="https://kellogg.nd.edu/about/outreach-initiatives/ford-program-human-development-studies-and-solidarity" target="_blank">Ford Program in Human Development Studies and Solidarity</a> at the <a href="https://kellogg.nd.edu/" target="_blank">Kellogg Institute For International Studies</a>. I received my PhD from Cornell University in 2023.</p>
 <p>I am a development economist whose research primarily focuses on human capital formation, gender, and the role of institutions. Some of my research also examines price distortions and environmental externalities associated with agricultural policies.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
