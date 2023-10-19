@@ -4,7 +4,7 @@ site: distill::distill_website
 ---
 # Publications
 
-## [Food Security Dynamics in the U.S., 2001-2017](files/AJAE_MS_22016_manuscript_Jun_2023_Revision.pdf){target="_blank"}
+## [Food Security Dynamics in the U.S., 2001-2017](files/MS 22016-3_manuscript.pdf){target="_blank"}
 
 With [Christopher B. Barrett](http://barrett.dyson.cornell.edu/){target="_blank"} and [John H. Hoddinott](https://www.human.cornell.edu/people/jfh246){target="_blank"} - *Forthcoming* at *American Journal of Agricultural Economics*
 
