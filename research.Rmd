@@ -13,10 +13,9 @@ With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="
 
 # Working Papers
 
-## [Social Norms and Human Capital Investment: Examining the Educational Impacts of Dowry in Rural India](files/Dowry_and_Education.pdf){target="_blank"}
+## [how Me the Dowry: How Traditional Customs Affect Education in Rural India](files/Dowry_and_Education.pdf){target="_blank"}
 
-***Abstract***: I explore the potential of policies that challenge social norms to disrupt human capital formation. Specifically, using a difference-in-differences design I leverage a legal change in India, that increased the cost of dowry for certain religious groups to study effects educational attainment among rural households. I find that dowry payments reduce as a response to the law change but so do years of educational attainment, particularly for women. I employ heterogeneity analyses to show that declines in female educational attainment were strongest among groups with higher prevalence and greater importance attributed to dowry payments. I consider a range of explanations and suggest that the findings align with dowry payments as a signal to communicate adherence to traditional social norms. Switching to reduction in female education as an alternate signal of social norm adherence appears to be a plausible mechanism. Hence while the legal change is effective in combating an exploitative social norm, it unintentionally depletes human capital for women.
-
+***Abstract***: This study examines the impact of a law that increased penalties for dowry on rural households' educational attainment in India, using data from the Rural Economic and Demographic Survey. A difference-in-differences approach reveals that the law reduced dowry payments and female education, with the decline in female education being most pronounced in communities with higher dowry prevalence. This suggests that dowry payments signal adherence to tradition, and reducing female education serves as an alternative signal in the absence of dowry. Hence, while the law combats an exploitative custom, it inadvertently depletes female human capital.
 
 
 
