@@ -13,7 +13,7 @@ With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="
 
 # Working Papers
 
-## [how Me the Dowry: How Traditional Customs Affect Education in Rural India](files/Dowry_and_Education.pdf){target="_blank"}
+## [Show Me the Dowry: How Traditional Customs Affect Education in Rural India](files/Dowry_and_Education.pdf){target="_blank"}
 
 ***Abstract***: This study examines the impact of a law that increased penalties for dowry on rural households' educational attainment in India, using data from the Rural Economic and Demographic Survey. A difference-in-differences approach reveals that the law reduced dowry payments and female education, with the decline in female education being most pronounced in communities with higher dowry prevalence. This suggests that dowry payments signal adherence to tradition, and reducing female education serves as an alternative signal in the absence of dowry. Hence, while the law combats an exploitative custom, it inadvertently depletes female human capital.
 
