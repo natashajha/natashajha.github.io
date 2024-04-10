@@ -25,7 +25,7 @@ With [Tarun Jain](https://sites.google.com/virginia.edu/tarunjain/home?authuser=
 
 ***Abstract***: We examine gender differences in access to and service within a publicly financed tertiary healthcare program in Andhra Pradesh India. We use claim-level administrative data from the program to estimate gender differences in access and services. We classify the distance the patient travels as access variables and the time for claim authorization, treatment, and discharge, as well as the amount approved and paid as service variables. We use a regression framework to control for the influence of other patient characteristics, the type of procedure, hospital, and quarter of treatment in making gender comparisons.
 
-## Minimum Support Prices in Indian Agriculture: Supporting Whom and at What Price?
+## [Minimum Support Prices in Indian Agriculture: Supporting Whom and at What Price?](files/MSP_Paper.pdf){target="_blank"}
 
 With [Shilpa Aggarwal](https://aggarwalshilpa.wixsite.com/home) and [Ishani Chatterjee](https://economics.ucsd.edu/graduate-program/about/grad-profiles/cohort%202019/Chatterjee-ishani.html)
 
