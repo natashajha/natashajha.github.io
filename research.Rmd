@@ -7,7 +7,7 @@ site: distill::distill_website
 
 ## [Alcohol Ban and Crime: The ABC's of the Bihar Prohibition](files/EDCC-alcoholban-ms.pdf){target="_blank"}
 
-With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="_blank"}, [Revathy Suryanarayana](https://revathy-suryanarayana.github.io/){target="_blank"} and [Mrithyunjayan Nilayamgode](https://economics.virginia.edu/people/profile/mn4yk){target="_blank"} - Forthcoming at Economic Development & Cultural Change
+With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="_blank"}, [Revathy Suryanarayana](https://revathy-suryanarayana.github.io/){target="_blank"} and [Mrithyunjayan Nilayamgode](https://economics.virginia.edu/people/profile/mn4yk){target="_blank"} - Economic Development and Cultural Change, 72(4),2024
 
 <button onclick="toggleAbstract('abstract1')" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
   Abstract
