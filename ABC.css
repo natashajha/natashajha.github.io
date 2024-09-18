@@ -17,6 +17,19 @@ body {
   background: rgba(230, 230, 250, 0.3)
 }
 
+/* Adjusting the page container to reduce margins */
+.main-container {
+  max-width: 90%;  /* Increase width to take up more space */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/* Optional: Reduce padding for individual sections */
+.section {
+  padding: 20px 40px;  /* Adjust as necessary */
+}
+
 html {
   /*-- Main font sizes --*/
   --title-size:      50px;

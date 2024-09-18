@@ -2168,6 +2168,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     background: rgba(230, 230, 250, 0.3)
   }
 
+  /* Adjusting the page container to reduce margins */
+  .main-container {
+    max-width: 90%;  /* Increase width to take up more space */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  /* Optional: Reduce padding for individual sections */
+  .section {
+    padding: 20px 40px;  /* Adjust as necessary */
+  }
+
   html {
     /*-- Main font sizes --*/
     --title-size:      50px;
@@ -2487,16 +2500,50 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1 id="publications">Publications</h1>
 <h2 id="alcohol-ban-and-crime-the-abcs-of-the-bihar-prohibition"><a href="files/EDCC-alcoholban-ms.pdf" target="_blank">Alcohol Ban and Crime: The ABC’s of the Bihar Prohibition</a></h2>
 <p>With <a href="https://economics.ucdavis.edu/people/kalyanic" target="_blank">Kalyani Chaudhuri</a>, <a href="https://revathy-suryanarayana.github.io/" target="_blank">Revathy Suryanarayana</a> and <a href="https://economics.virginia.edu/people/profile/mn4yk" target="_blank">Mrithyunjayan Nilayamgode</a> - Forthcoming at Economic Development &amp; Cultural Change</p>
-<p><strong><em>Abstract</em></strong>: We studied the relationship between alcohol consumption and crime using the implementation of a statewide total prohibition of alcohol in the Indian state of Bihar in 2016. Testing the theoretical argument that alcohol has differential effects on different kinds of crime, we used a difference-in-differences (DiD) approach and found that the prohibition led to a 0.22 standard deviation point reduction in the reported incidence of violent crimes but had no significant impact on nonviolent crimes. The effect is fairly persistent over time, with the initial impact being large enough that, on average, there is a reduction in violent crime over at least a three-year period following the ban. Heterogeneity tests revealed that the effect on crime was stronger in interior districts and districts with higher baseline alcohol consumption. We also observed stronger effects in districts where a smaller proportion of the population faced religious restrictions on alcohol consumption. Since all these subgroups indicate districts where the ban is likely to have had a larger effect on alcohol availability and consumption, we conclude that the ban affects crime through this channel rather than that of institutional changes.</p>
-<h1 id="working-papers">Working Papers</h1>
+<button onclick="toggleAbstract(&#39;abstract1&#39;)" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
+Abstract
+</button>
+<div id="abstract1" style="display:none;">
+<p><strong>Abstract</strong>: We studied the relationship between alcohol consumption and crime using the implementation of a statewide total prohibition of alcohol in the Indian state of Bihar in 2016. Testing the theoretical argument that alcohol has differential effects on different kinds of crime, we used a difference-in-differences (DiD) approach and found that the prohibition led to a 0.22 standard deviation point reduction in the reported incidence of violent crimes but had no significant impact on nonviolent crimes. The effect is fairly persistent over time, with the initial impact being large enough that, on average, there is a reduction in violent crime over at least a three-year period following the ban. Heterogeneity tests revealed that the effect on crime was stronger in interior districts and districts with higher baseline alcohol consumption. We also observed stronger effects in districts where a smaller proportion of the population faced religious restrictions on alcohol consumption. Since all these subgroups indicate districts where the ban is likely to have had a larger effect on alcohol availability and consumption, we conclude that the ban affects crime through this channel rather than that of institutional changes.</p>
+</div>
 <h2 id="show-me-the-dowry-how-traditional-customs-affect-education-in-rural-india"><a href="files/Dowry_and_Education.pdf" target="_blank">Show Me the Dowry: How Traditional Customs Affect Education in Rural India</a></h2>
-<p><strong><em>Abstract</em></strong>: This study examines the impact of a law that increased penalties for dowry on rural households’ educational attainment in India, using data from the Rural Economic and Demographic Survey. A difference-in-differences approach reveals that the law reduced dowry payments and female education, with the decline in female education being most pronounced in communities with higher dowry prevalence. This suggests that dowry payments signal adherence to tradition, and reducing female education serves as an alternative signal in the absence of dowry. Hence, while the law combats an exploitative custom, it inadvertently depletes female human capital.</p>
-<h2 id="gender-differences-in-tertiary-healthcare">Gender differences in tertiary healthcare</h2>
-<p>With <a href="https://sites.google.com/virginia.edu/tarunjain/home?authuser=0" target="_blank">Tarun Jain</a> and <a href="https://revathy-suryanarayana.github.io/" target="_blank">Revathy Suryanarayana</a></p>
-<p><strong><em>Abstract</em></strong>: We examine gender differences in access to and service within a publicly financed tertiary healthcare program in Andhra Pradesh India. We use claim-level administrative data from the program to estimate gender differences in access and services. We classify the distance the patient travels as access variables and the time for claim authorization, treatment, and discharge, as well as the amount approved and paid as service variables. We use a regression framework to control for the influence of other patient characteristics, the type of procedure, hospital, and quarter of treatment in making gender comparisons.</p>
+<button onclick="toggleAbstract(&#39;abstract2&#39;)" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
+Abstract
+</button>
+<div id="abstract2" style="display:none;">
+<p><strong>Abstract</strong>: This study examines the impact of a law that increased penalties for dowry on educational attainment in rural India, using data from the Rural Economic and Demographic Survey. A difference-in-differences approach reveals that the law effectively reduced dowry payments, but also female education, with the decline in female education being most pronounced in communities with higher dowry prevalence. Since dowry payments signal adherence to traditional values, after anti-dowry laws, families must come up with an alternative signal. Consequently, lowering female education becomes the alternative signal showing adherence to tradition. Hence, while the anti-dowry law combats an exploitative system, it inadvertently reduces female education.</p>
+</div>
 <h2 id="minimum-support-prices-in-indian-agriculture-supporting-whom-and-at-what-price"><a href="files/MSP_Paper.pdf" target="_blank">Minimum Support Prices in Indian Agriculture: Supporting Whom and at What Price?</a></h2>
 <p>With <a href="https://aggarwalshilpa.wixsite.com/home">Shilpa Aggarwal</a> and <a href="https://economics.ucsd.edu/graduate-program/about/grad-profiles/cohort%202019/Chatterjee-ishani.html">Ishani Chatterjee</a></p>
-<p><strong><em>Abstract</em></strong>: Distortions introduced by price-controls may be underestimated if controls are captured for uses beyond fixing market failures. We study India’s minimum support prices (MSP) for food grains, and find that when a district with a larger area under cultivation for a crop is slated to go for elections, the central government announces a higher MSP for that crop. Since the government’s procurement price is the same across states, this blunt instrument is used more when other policy instruments are unavailable, i.e., when the incumbent state government is unaligned with the center. Higher MSP directly reduces welfare by increasing consumer prices.</p>
+<button onclick="toggleAbstract(&#39;abstract3&#39;)" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
+Abstract
+</button>
+<div id="abstract3" style="display:none;">
+<p><strong>Abstract</strong>: Distortions introduced by price-controls may be underestimated if controls are captured for uses beyond fixing market failures. We study India’s minimum support prices (MSP) for food grains, and find that the central government announces a higher MSP for a crop when a larger area under cultivation for that crop is slated to go for state elections. Since the government’s procurement price is the same across states, this blunt instrument is used more when other policy instruments are unavailable, i.e., when the incumbent state government is unaligned with the center. Higher MSP directly reduces welfare by increasing consumer prices.</p>
+</div>
+<h2 id="gender-differences-in-tertiary-healthcare"><a href="files/Dowry_and_Education.pdf" target="_blank">Gender differences in tertiary healthcare</a></h2>
+<p>With <a href="https://sites.google.com/virginia.edu/tarunjain/home?authuser=0" target="_blank">Tarun Jain</a> and <a href="https://revathy-suryanarayana.github.io/" target="_blank">Revathy Suryanarayana</a></p>
+<button onclick="toggleAbstract(&#39;abstract4&#39;)" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
+Abstract
+</button>
+<div id="abstract4" style="display:none;">
+<p><strong>Abstract</strong>: We examine gender differences in access to and service within a publicly financed tertiary healthcare program in Andhra Pradesh India. We use claim-level administrative data from the program to estimate gender differences in access and services. We classify the distance the patient travels as access variables and the time for claim authorization, treatment, and discharge, as well as the amount approved and paid as service variables. We use a regression framework to control for the influence of other patient characteristics, the type of procedure, hospital, and quarter of treatment in making gender comparisons.</p>
+</div>
+<script>
+function toggleAbstract(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<h1 id="work-in-progress">Work in Progress</h1>
+<h2 id="job-amenities-and-misallocation-of-talent">Job Amenities and Misallocation of Talent</h2>
+<p>With <a href="https://martinabelsite.wordpress.com/" target="_blank">Martin Abel</a> and <a href="https://sites.google.com/site/pirainop/" target="_blank">Patrizio Piraino</a></p>
+<h2 id="impact-of-early-childhood-education-in-nepal">Impact of Early Childhood Education in Nepal</h2>
+<p>With <a href="https://www.linkedin.com/in/lindsey-lacey-704008b4/" target="_blank">Lindsey Buck</a>, <a href="https://hdfs.uconn.edu/person/rachel-chazan-cohen/" target="_blank">Rachel Cohen</a>, <a href="https://www.nishithprakash.com/" target="_blank">Nishith Prakash</a>, <a href="https://liberalarts.utexas.edu/economics/gradstudents/mm225537" target="_blank">Mridul Mishra</a>, <a href="https://scholar.google.com/citations?user=HaDy4-sAAAAJ&amp;hl=en" target="_blank">Shwetlana Sabarwal</a>, and <a href="https://sites.google.com/view/deepak-saraswat" target="_blank">Deepak Saraswat</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
