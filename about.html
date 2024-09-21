@@ -21,7 +21,7 @@
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -88,7 +88,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Natasha Jha: About this site</title>
+  <title>Home: About this site</title>
 
   <meta property="description" itemprop="description" content="Some additional details about the website"/>
 
@@ -96,15 +96,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Natasha Jha: About this site"/>
+  <meta property="og:title" content="Home: About this site"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Some additional details about the website"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Natasha Jha"/>
+  <meta property="og:site_name" content="Home"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Natasha Jha: About this site"/>
+  <meta property="twitter:title" content="Home: About this site"/>
   <meta property="twitter:description" content="Some additional details about the website"/>
 
   <!--/radix_placeholder_meta_tags-->
@@ -789,6 +789,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1874,7 +1875,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2165,6 +2167,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 
+  body {
+    background: rgba(230, 230, 250, 0.3)
+  }
+
+  /* Adjusting the page container to reduce margins */
+  .main-container {
+    max-width: 90%;  /* Increase width to take up more space */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  /* Optional: Reduce padding for individual sections */
+  .section {
+    padding: 20px 40px;  /* Adjust as necessary */
+  }
+
   html {
     /*-- Main font sizes --*/
     --title-size:      50px;
@@ -2215,7 +2234,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-color:       #1f1f1f;                   /* edited */
     --text-size:        15px;
     --hover-color:      #787878;                   /* edited */
-    --bkgd-color:       #fff;                      /* edited */
+    --bkgd-color:       rgba(230, 230, 250, 0.3);                      /* edited */
   }
 
   .distill-site-footer {
@@ -2224,6 +2243,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --hover-color:      white;
     --bkgd-color:       #2750913d;                 /* edited */
   }
+
+  d-article {
+  grid-template-columns: [screen-start] 1fr [text-start kicker-end] 2% 2% 2% 2% 2% 2% 2% 2% [text-end gutter-start] 2% [middle-end] 2% [page-end gutter-end] 1fr [screen-end];
+  grid-column-gap: 10%;
+  }
+
 
   /*-- Additional custom styles --*/
 
@@ -2415,7 +2440,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2450,12 +2475,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">Natasha Jha</a>
+<a href="index.html" class="title">Home</a>
 <a href="research.html">Research</a>
 <a href="files/CV_Jha.pdf">CV</a>
 </div>
 <div class="nav-right">
-<a href="mailto:nj279@cornell.edu">
+<a href="mailto:njha@nd.edu">
 <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
 </a>
 <a href="https://twitter.com/NatashaJha_42">

@@ -21,7 +21,7 @@
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -88,21 +88,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Natasha Jha</title>
+  <title>Home: Natasha Jha</title>
 
 
   <link rel="icon" type="image/png" href="images/favicon.png"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Natasha Jha"/>
+  <meta property="og:title" content="Home: Natasha Jha"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Natasha Jha"/>
+  <meta property="og:site_name" content="Home"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Natasha Jha"/>
+  <meta property="twitter:title" content="Home: Natasha Jha"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
@@ -786,6 +786,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1871,7 +1872,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2162,6 +2164,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 
+  body {
+    background: rgba(230, 230, 250, 0.3)
+  }
+
+  /* Adjusting the page container to reduce margins */
+  .main-container {
+    max-width: 90%;  /* Increase width to take up more space */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  /* Optional: Reduce padding for individual sections */
+  .section {
+    padding: 20px 40px;  /* Adjust as necessary */
+  }
+
   html {
     /*-- Main font sizes --*/
     --title-size:      50px;
@@ -2212,7 +2231,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-color:       #1f1f1f;                   /* edited */
     --text-size:        15px;
     --hover-color:      #787878;                   /* edited */
-    --bkgd-color:       #fff;                      /* edited */
+    --bkgd-color:       rgba(230, 230, 250, 0.3);                      /* edited */
   }
 
   .distill-site-footer {
@@ -2221,6 +2240,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --hover-color:      white;
     --bkgd-color:       #2750913d;                 /* edited */
   }
+
+  d-article {
+  grid-template-columns: [screen-start] 1fr [text-start kicker-end] 2% 2% 2% 2% 2% 2% 2% 2% [text-end gutter-start] 2% [middle-end] 2% [page-end gutter-end] 1fr [screen-end];
+  grid-column-gap: 10%;
+  }
+
 
   /*-- Additional custom styles --*/
 
@@ -2412,7 +2437,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2447,12 +2472,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">Natasha Jha</a>
+<a href="index.html" class="title">Home</a>
 <a href="research.html">Research</a>
 <a href="files/CV_Jha.pdf">CV</a>
 </div>
 <div class="nav-right">
-<a href="mailto:nj279@cornell.edu">
+<a href="mailto:njha@nd.edu">
 <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
 </a>
 <a href="https://twitter.com/NatashaJha_42">
@@ -2478,13 +2503,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<center>
-<img src="images/natasha.jpg" style="width:40%;" >
-</center>
-<p>
- 
-</p>
-<p>Natasha Jha is a Ph.D. student in the field of Applied Economics and Management. She is interested in studying the linkages between agriculture and nutrition and how these are likely to be impacted by climate shocks. Her research interests evolved from her experience as a research assistant in the Economics and Public Policy department at the Indian School of Business. As a researcher, she has worked on projects exploring the political economy behind the minimum support price of agricultural commodities in India and separately, on a project that enumerated farmer response to rainfall shocks and temperature variability. Natasha holds an M.A. in Economics from the Delhi School of Economics and an undergraduate degree in Economics from the University of Delhi.</p>
+<div class="float-image">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/natasha.jpg" width="25%" style="float:left; padding:10px" /></p>
+</div>
+<p><left>
+Hi!
+</left></p>
+<p>My name is Natasha Jha. I am a postdoctoral research associate with the <a href="https://kellogg.nd.edu/about/outreach-initiatives/ford-program-human-development-studies-and-solidarity" target="_blank">Ford Program in Human Development Studies and Solidarity</a> at the <a href="https://kellogg.nd.edu/" target="_blank">Kellogg Institute For International Studies</a>. I received my PhD from Cornell University in 2023.</p>
+<p>I am a development economist whose research primarily focuses on human capital formation, gender, and the role of social norms. Some of my research also examines price distortions and environmental externalities associated with agricultural policies.</p>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

@@ -2,40 +2,72 @@
 title: "Research"
 site: distill::distill_website
 ---
-# Working Papers
 
-## Impact of Dowry on Human Capital Formation: Evidence from India
+# Publications
 
-***Abstract***: This paper examines the consequences of sticky social norms for investments in human
-capital in the context of dowry payments and educational attainment. Using data from
-rural India the paper tests for educational impacts of a change in dowry payments brought
-about by the 1985 amendment to the Dowry Prohibition Act. The empirical strategy uses
-a Difference-in-differences design along with variation in exposure to the amendment by
-religion. I document a decline in dowry exchanged as well as a 18% reduction in education
-for exposed girls post amendment. I find that households that experienced the most
-change in dowry payments exhibit largest declines in years of education. The evidence
-suggests that changes in match quality, price effects and changes in bequest motives are
-unlikely to contribute to these results. Last, I explore gendered social norms as a potential
-mechanism.
+### [Alcohol Ban and Crime: The ABC's of the Bihar Prohibition](files/EDCC-alcoholban-ms.pdf){target="_blank"}
 
-## Alcohol Ban and Crime: The ABC's of the Bihar Prohibition. 
+With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="_blank"}, [Revathy Suryanarayana](https://revathy-suryanarayana.github.io/){target="_blank"} and [Mrithyunjayan Nilayamgode](https://economics.virginia.edu/people/profile/mn4yk){target="_blank"} - Economic Development and Cultural Change, 72(4),2024
 
-With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="_blank"}, [Revathy Suryanarayana](https://revathy-suryanarayana.github.io/){target="_blank"} and [Mrithyunjayan Nilayamgode](https://economics.virginia.edu/people/profile/mn4yk){target="_blank"}
+<button onclick="toggleAbstract('abstract1')" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
+  Abstract
+</button>
 
-***Abstract***: We study the relationship between alcohol consumption and crime using the implementation of a statewide total prohibition of alcohol in the Indian state of Bihar in 2016. Testing the theoretical argument that alcohol has differential effects on different kinds of crime, we use a difference-in-differences approach and find that the prohibition led to a 0.22 standard deviation reduction in the reported incidence of violent crimes, but had no significant impact on non-violent crimes. This effect is fairly persistent over time, lasting at least three years into the ban, indicating that it is a reliable medium-term strategy to control crime. Heterogeneity tests also reveal that the effect on crime is stronger in interior districts and districts with higher baseline alcohol consumption. We also observe stronger effects in districts where a smaller proportion of the population faces religious restrictions on alcohol consumption. Since all of these subgroups indicate districts where the ban is likely to have had a larger effect on alcohol availability and consumption, we conclude that the ban affects crime through this channel rather than that of institutional changes.
+<div id="abstract1" style="display:none;">
+  <strong>Abstract</strong>: We studied the relationship between alcohol consumption and crime using the implementation of a statewide total prohibition of alcohol in the Indian state of Bihar in 2016. Testing the theoretical argument that alcohol has differential effects on different kinds of crime, we used a difference-in-differences (DiD) approach and found that the prohibition led to a 0.22 standard deviation point reduction in the reported incidence of violent crimes but had no significant impact on nonviolent crimes. The effect is fairly persistent over time, with the initial impact being large enough that, on average, there is a reduction in violent crime over at least a three-year period following the ban. Heterogeneity tests revealed that the effect on crime was stronger in interior districts and districts with higher baseline alcohol consumption. We also observed stronger effects in districts where a smaller proportion of the population faced religious restrictions on alcohol consumption. Since all these subgroups indicate districts where the ban is likely to have had a larger effect on alcohol availability and consumption, we conclude that the ban affects crime through this channel rather than that of institutional changes.
+</div>
 
+### [Show Me the Dowry: How Traditional Customs Affect Education in Rural India](files/Dowry_and_Education.pdf){target="_blank"}
 
-## Gender differences in tertiary healthcare.
+<button onclick="toggleAbstract('abstract2')" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
+  Abstract
+</button>
+
+<div id="abstract2" style="display:none;">
+  <strong>Abstract</strong>: This study examines the impact of a law that increased penalties for dowry on educational attainment in rural India, using data from the Rural Economic and Demographic Survey. A difference-in-differences approach reveals that the law effectively reduced dowry payments, but also female education, with the decline in female education being most pronounced in communities with higher dowry prevalence. Since dowry payments signal adherence to traditional values, after anti-dowry laws, families must come up with an alternative signal. Consequently, lowering female education becomes the alternative signal showing adherence to tradition. Hence, while the anti-dowry law combats an exploitative system, it inadvertently reduces female education.
+</div>
+
+### [Minimum Support Prices in Indian Agriculture: Supporting Whom and at What Price?](files/MSP_Paper.pdf){target="_blank"}
+
+With [Shilpa Aggarwal](https://aggarwalshilpa.wixsite.com/home) and [Ishani Chatterjee](https://economics.ucsd.edu/graduate-program/about/grad-profiles/cohort%202019/Chatterjee-ishani.html)
+
+<button onclick="toggleAbstract('abstract3')" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
+  Abstract
+</button>
+
+<div id="abstract3" style="display:none;">
+  <strong>Abstract</strong>: Distortions introduced by price-controls may be underestimated if controls are captured for uses beyond fixing market failures. We study India's minimum support prices (MSP) for food grains, and find that the central government announces a higher MSP for a crop when a larger area under cultivation for that crop is slated to go for state elections. Since the government's procurement price is the same across states, this blunt instrument is used more when other policy instruments are unavailable, i.e., when the incumbent state government is unaligned with the center. Higher MSP directly reduces welfare by increasing consumer prices.
+</div>
+
+### [Gender differences in tertiary healthcare](files/Gender_healthcare1.pdf){target="_blank"}
 
 With [Tarun Jain](https://sites.google.com/virginia.edu/tarunjain/home?authuser=0){target="_blank"} and [Revathy Suryanarayana](https://revathy-suryanarayana.github.io/){target="_blank"}
 
-***Abstract***: We examine gender differences in access to and service within a publicly financed tertiary healthcare program in Andhra Pradesh India. We use claim-level administrative data from the program to estimate gender differences in access and services. We classify the distance the patient travels as access variables and the time for claim authorization, treatment, and discharge, as well as the amount approved and paid as service variables. We use a regression framework to control for the influence of other patient characteristics, the type of procedure, hospital, and quarter of treatment in making gender comparisons.
+<button onclick="toggleAbstract('abstract4')" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
+  Abstract
+</button>
 
-## The Political Economy of Minimum Support Prices
+<div id="abstract4" style="display:none;">
+  <strong>Abstract</strong>: We examine gender differences in access to and service within a publicly financed tertiary healthcare program in Andhra Pradesh India. We use claim-level administrative data from the program to estimate gender differences in access and services. We classify the distance the patient travels as access variables and the time for claim authorization, treatment, and discharge, as well as the amount approved and paid as service variables. We use a regression framework to control for the influence of other patient characteristics, the type of procedure, hospital, and quarter of treatment in making gender comparisons.
+</div>
 
-With Shilpa Aggarwal
+<script>
+function toggleAbstract(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
-***Abstract***: We study the determination of minimum support prices within the institutional context of price support
-operations. Formally we explore the interactions between support price, procurement and electoral capture by
-the federal government through empirical analysis.
+# Work in Progress
 
+### Job Amenities and Misallocation of Talent
+
+With [Martin Abel](https://martinabelsite.wordpress.com/){target="_blank"} and [Patrizio Piraino](https://sites.google.com/site/pirainop/){target="_blank"} 
+
+### Shaping Future Success: Evidence from an Early Childhood Human Capital Formation Intervention
+
+With [Lindsey Buck](https://www.linkedin.com/in/lindsey-lacey-704008b4/){target="_blank"}, [Rachel Cohen](https://hdfs.uconn.edu/person/rachel-chazan-cohen/){target="_blank"}, [Nishith Prakash](https://www.nishithprakash.com/){target="_blank"}, [Mridul Mishra](https://liberalarts.utexas.edu/economics/gradstudents/mm225537){target="_blank"}, [Shwetlana Sabarwal](https://scholar.google.com/citations?user=HaDy4-sAAAAJ&hl=en){target="_blank"}, and [Deepak Saraswat](https://sites.google.com/view/deepak-saraswat){target="_blank"}

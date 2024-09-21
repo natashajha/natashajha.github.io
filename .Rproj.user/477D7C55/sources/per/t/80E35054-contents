@@ -1,5 +1,5 @@
 name: "natashajha"
-title: "Natasha Jha"
+title: "Home"
 favicon: images/favicon.png
 base_url: https://natashajha.github.io/
 google_analytics: "G-75HL00LT6X"
@@ -14,7 +14,7 @@ navbar:
       href: files/CV_Jha.pdf
   right:
     - icon: fa-envelope fa-lg
-      href: "mailto:nj279@cornell.edu"
+      href: "mailto:njha@nd.edu"
     - icon: fa-twitter fa-lg
       href: https://twitter.com/NatashaJha_42
     - icon: fa-linkedin fa-lg
