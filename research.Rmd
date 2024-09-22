@@ -5,7 +5,7 @@ site: distill::distill_website
 
 # Publications
 
-## [Alcohol Ban and Crime: The ABC's of the Bihar Prohibition](files/EDCC-alcoholban-ms.pdf){target="_blank"}
+### [Alcohol Ban and Crime: The ABC's of the Bihar Prohibition](files/EDCC-alcoholban-ms.pdf){target="_blank"}
 
 With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="_blank"}, [Revathy Suryanarayana](https://revathy-suryanarayana.github.io/){target="_blank"} and [Mrithyunjayan Nilayamgode](https://economics.virginia.edu/people/profile/mn4yk){target="_blank"} - Economic Development and Cultural Change, 72(4),2024
 
@@ -19,7 +19,7 @@ With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="
 
 # Working Papers
 
-## [Show Me the Dowry: How Traditional Customs Affect Education in Rural India](files/Dowry_and_Education.pdf){target="_blank"}
+### [Show Me the Dowry: How Traditional Customs Affect Education in Rural India](files/Dowry_and_Education.pdf){target="_blank"}
 
 <button onclick="toggleAbstract('abstract2')" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
   Abstract
@@ -29,7 +29,7 @@ With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="
   <strong>Abstract</strong>: This study examines the impact of a law that increased penalties for dowry on educational attainment in rural India, using data from the Rural Economic and Demographic Survey. A difference-in-differences approach reveals that the law effectively reduced dowry payments, but also female education, with the decline in female education being most pronounced in communities with higher dowry prevalence. Since dowry payments signal adherence to traditional values, after anti-dowry laws, families must come up with an alternative signal. Consequently, lowering female education becomes the alternative signal showing adherence to tradition. Hence, while the anti-dowry law combats an exploitative system, it inadvertently reduces female education.
 </div>
 
-## [Minimum Support Prices in Indian Agriculture: Supporting Whom and at What Price?](files/MSP_Paper.pdf){target="_blank"}
+### [Minimum Support Prices in Indian Agriculture: Supporting Whom and at What Price?](files/MSP_Paper.pdf){target="_blank"}
 
 With [Shilpa Aggarwal](https://aggarwalshilpa.wixsite.com/home) and [Ishani Chatterjee](https://economics.ucsd.edu/graduate-program/about/grad-profiles/cohort%202019/Chatterjee-ishani.html)
 
@@ -41,7 +41,7 @@ With [Shilpa Aggarwal](https://aggarwalshilpa.wixsite.com/home) and [Ishani Chat
   <strong>Abstract</strong>: Distortions introduced by price-controls may be underestimated if controls are captured for uses beyond fixing market failures. We study India's minimum support prices (MSP) for food grains, and find that the central government announces a higher MSP for a crop when a larger area under cultivation for that crop is slated to go for state elections. Since the government's procurement price is the same across states, this blunt instrument is used more when other policy instruments are unavailable, i.e., when the incumbent state government is unaligned with the center. Higher MSP directly reduces welfare by increasing consumer prices.
 </div>
 
-## [Gender differences in tertiary healthcare](files/Gender_healthcare1.pdf){target="_blank"}
+### [Gender differences in tertiary healthcare](files/Gender_healthcare1.pdf){target="_blank"}
 
 With [Tarun Jain](https://sites.google.com/virginia.edu/tarunjain/home?authuser=0){target="_blank"} and [Revathy Suryanarayana](https://revathy-suryanarayana.github.io/){target="_blank"}
 
@@ -66,10 +66,10 @@ function toggleAbstract(id) {
 
 # Work in Progress
 
-## Job Amenities and Misallocation of Talent
+### Job Amenities and Misallocation of Talent
 
 With [Martin Abel](https://martinabelsite.wordpress.com/){target="_blank"} and [Patrizio Piraino](https://sites.google.com/site/pirainop/){target="_blank"} 
 
-## Shaping Future Success: Evidence from an Early Childhood Human Capital Formation Intervention
+### Shaping Future Success: Evidence from an Early Childhood Human Capital Formation Intervention
 
 With [Lindsey Buck](https://www.linkedin.com/in/lindsey-lacey-704008b4/){target="_blank"}, [Rachel Cohen](https://hdfs.uconn.edu/person/rachel-chazan-cohen/){target="_blank"}, [Nishith Prakash](https://www.nishithprakash.com/){target="_blank"}, [Mridul Mishra](https://liberalarts.utexas.edu/economics/gradstudents/mm225537){target="_blank"}, [Shwetlana Sabarwal](https://scholar.google.com/citations?user=HaDy4-sAAAAJ&hl=en){target="_blank"}, and [Deepak Saraswat](https://sites.google.com/view/deepak-saraswat){target="_blank"}

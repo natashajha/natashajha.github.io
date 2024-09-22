@@ -2241,6 +2241,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --bkgd-color:       #2750913d;                 /* edited */
   }
 
+  d-article {
+  grid-template-columns: [screen-start] 1fr [text-start kicker-end] 2% 2% 2% 2% 2% 2% 2% 2% [text-end gutter-start] 2% [middle-end] 2% [page-end gutter-end] 1fr [screen-end];
+  grid-column-gap: 10%;
+  }
+
+
   /*-- Additional custom styles --*/
 
   ul > li::marker {
@@ -2498,7 +2504,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <h1 id="publications">Publications</h1>
-<h2 id="alcohol-ban-and-crime-the-abcs-of-the-bihar-prohibition"><a href="files/EDCC-alcoholban-ms.pdf" target="_blank">Alcohol Ban and Crime: The ABC’s of the Bihar Prohibition</a></h2>
+<h3 id="alcohol-ban-and-crime-the-abcs-of-the-bihar-prohibition"><a href="files/EDCC-alcoholban-ms.pdf" target="_blank">Alcohol Ban and Crime: The ABC’s of the Bihar Prohibition</a></h3>
 <p>With <a href="https://economics.ucdavis.edu/people/kalyanic" target="_blank">Kalyani Chaudhuri</a>, <a href="https://revathy-suryanarayana.github.io/" target="_blank">Revathy Suryanarayana</a> and <a href="https://economics.virginia.edu/people/profile/mn4yk" target="_blank">Mrithyunjayan Nilayamgode</a> - Economic Development and Cultural Change, 72(4),2024</p>
 <button onclick="toggleAbstract(&#39;abstract1&#39;)" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
 Abstract
@@ -2507,14 +2513,14 @@ Abstract
 <p><strong>Abstract</strong>: We studied the relationship between alcohol consumption and crime using the implementation of a statewide total prohibition of alcohol in the Indian state of Bihar in 2016. Testing the theoretical argument that alcohol has differential effects on different kinds of crime, we used a difference-in-differences (DiD) approach and found that the prohibition led to a 0.22 standard deviation point reduction in the reported incidence of violent crimes but had no significant impact on nonviolent crimes. The effect is fairly persistent over time, with the initial impact being large enough that, on average, there is a reduction in violent crime over at least a three-year period following the ban. Heterogeneity tests revealed that the effect on crime was stronger in interior districts and districts with higher baseline alcohol consumption. We also observed stronger effects in districts where a smaller proportion of the population faced religious restrictions on alcohol consumption. Since all these subgroups indicate districts where the ban is likely to have had a larger effect on alcohol availability and consumption, we conclude that the ban affects crime through this channel rather than that of institutional changes.</p>
 </div>
 <h1 id="working-papers">Working Papers</h1>
-<h2 id="show-me-the-dowry-how-traditional-customs-affect-education-in-rural-india"><a href="files/Dowry_and_Education.pdf" target="_blank">Show Me the Dowry: How Traditional Customs Affect Education in Rural India</a></h2>
+<h3 id="show-me-the-dowry-how-traditional-customs-affect-education-in-rural-india"><a href="files/Dowry_and_Education.pdf" target="_blank">Show Me the Dowry: How Traditional Customs Affect Education in Rural India</a></h3>
 <button onclick="toggleAbstract(&#39;abstract2&#39;)" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
 Abstract
 </button>
 <div id="abstract2" style="display:none;">
 <p><strong>Abstract</strong>: This study examines the impact of a law that increased penalties for dowry on educational attainment in rural India, using data from the Rural Economic and Demographic Survey. A difference-in-differences approach reveals that the law effectively reduced dowry payments, but also female education, with the decline in female education being most pronounced in communities with higher dowry prevalence. Since dowry payments signal adherence to traditional values, after anti-dowry laws, families must come up with an alternative signal. Consequently, lowering female education becomes the alternative signal showing adherence to tradition. Hence, while the anti-dowry law combats an exploitative system, it inadvertently reduces female education.</p>
 </div>
-<h2 id="minimum-support-prices-in-indian-agriculture-supporting-whom-and-at-what-price"><a href="files/MSP_Paper.pdf" target="_blank">Minimum Support Prices in Indian Agriculture: Supporting Whom and at What Price?</a></h2>
+<h3 id="minimum-support-prices-in-indian-agriculture-supporting-whom-and-at-what-price"><a href="files/MSP_Paper.pdf" target="_blank">Minimum Support Prices in Indian Agriculture: Supporting Whom and at What Price?</a></h3>
 <p>With <a href="https://aggarwalshilpa.wixsite.com/home">Shilpa Aggarwal</a> and <a href="https://economics.ucsd.edu/graduate-program/about/grad-profiles/cohort%202019/Chatterjee-ishani.html">Ishani Chatterjee</a></p>
 <button onclick="toggleAbstract(&#39;abstract3&#39;)" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
 Abstract
@@ -2522,7 +2528,7 @@ Abstract
 <div id="abstract3" style="display:none;">
 <p><strong>Abstract</strong>: Distortions introduced by price-controls may be underestimated if controls are captured for uses beyond fixing market failures. We study India’s minimum support prices (MSP) for food grains, and find that the central government announces a higher MSP for a crop when a larger area under cultivation for that crop is slated to go for state elections. Since the government’s procurement price is the same across states, this blunt instrument is used more when other policy instruments are unavailable, i.e., when the incumbent state government is unaligned with the center. Higher MSP directly reduces welfare by increasing consumer prices.</p>
 </div>
-<h2 id="gender-differences-in-tertiary-healthcare"><a href="files/Gender_healthcare1.pdf" target="_blank">Gender differences in tertiary healthcare</a></h2>
+<h3 id="gender-differences-in-tertiary-healthcare"><a href="files/Gender_healthcare1.pdf" target="_blank">Gender differences in tertiary healthcare</a></h3>
 <p>With <a href="https://sites.google.com/virginia.edu/tarunjain/home?authuser=0" target="_blank">Tarun Jain</a> and <a href="https://revathy-suryanarayana.github.io/" target="_blank">Revathy Suryanarayana</a></p>
 <button onclick="toggleAbstract(&#39;abstract4&#39;)" style="background-color: rgba(230, 230, 250, 0.3); border: none; color: #333; padding: 10px 15px; cursor: pointer;">
 Abstract
@@ -2541,9 +2547,9 @@ function toggleAbstract(id) {
 }
 </script>
 <h1 id="work-in-progress">Work in Progress</h1>
-<h2 id="job-amenities-and-misallocation-of-talent">Job Amenities and Misallocation of Talent</h2>
+<h3 id="job-amenities-and-misallocation-of-talent">Job Amenities and Misallocation of Talent</h3>
 <p>With <a href="https://martinabelsite.wordpress.com/" target="_blank">Martin Abel</a> and <a href="https://sites.google.com/site/pirainop/" target="_blank">Patrizio Piraino</a></p>
-<h2 id="shaping-future-success-evidence-from-an-early-childhood-human-capital-formation-intervention">Shaping Future Success: Evidence from an Early Childhood Human Capital Formation Intervention</h2>
+<h3 id="shaping-future-success-evidence-from-an-early-childhood-human-capital-formation-intervention">Shaping Future Success: Evidence from an Early Childhood Human Capital Formation Intervention</h3>
 <p>With <a href="https://www.linkedin.com/in/lindsey-lacey-704008b4/" target="_blank">Lindsey Buck</a>, <a href="https://hdfs.uconn.edu/person/rachel-chazan-cohen/" target="_blank">Rachel Cohen</a>, <a href="https://www.nishithprakash.com/" target="_blank">Nishith Prakash</a>, <a href="https://liberalarts.utexas.edu/economics/gradstudents/mm225537" target="_blank">Mridul Mishra</a>, <a href="https://scholar.google.com/citations?user=HaDy4-sAAAAJ&amp;hl=en" target="_blank">Shwetlana Sabarwal</a>, and <a href="https://sites.google.com/view/deepak-saraswat" target="_blank">Deepak Saraswat</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

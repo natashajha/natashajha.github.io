@@ -1,25 +1,25 @@
 {
     "id": "80E35054",
-    "path": "D:/Dropbox/Personal/Github Website/natashajha.github.io/_site.yml",
+    "path": "D:/Users/muzee/Downloads/natashajha.github.io-master/natashajha.github.io-master/_site.yml",
     "project_path": "_site.yml",
     "type": "yaml",
-    "hash": "790874381",
+    "hash": "2116293882",
     "contents": "",
     "dirty": false,
     "created": 1624417074953.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
-        "cursorPosition": "11,6",
+        "cursorPosition": "4,27",
         "scrollLine": "0",
         "Source": "Source"
     },
-    "folds": "12|16|13|28|\n",
-    "lastKnownWriteTime": 1662228119,
+    "folds": "",
+    "lastKnownWriteTime": 1726879504,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1662228119098,
+    "last_content_update": 1726879990870,
     "read_only": false,
     "read_only_alternatives": []
 }

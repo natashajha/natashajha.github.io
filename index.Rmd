@@ -3,19 +3,13 @@
 title: "Natasha Jha" 
 site: distill::distill_website
 ---
-```{css, echo=FALSE}
-h1, h4 {
-  text-align: center;
-}
+
+
+:::float-image
+
+```{r out.width='25%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/natasha.jpg")
 ```
-
-<center>
-<img src="images/natasha.jpg" style="width:40%;" >
-</center>
-<p>&nbsp;</p>  
-
-
-
 
 <left>
  Hi!
@@ -24,3 +18,5 @@ h1, h4 {
 My name is Natasha Jha. I am a postdoctoral research associate with the [Ford Program in Human Development Studies and Solidarity](https://kellogg.nd.edu/about/outreach-initiatives/ford-program-human-development-studies-and-solidarity){target="_blank"} at the [Kellogg Institute For International Studies](https://kellogg.nd.edu/){target="_blank"}. I received my PhD from Cornell University in 2023. 
 
 I am a development economist whose research primarily focuses on human capital formation, gender, and the role of social norms. Some of my research also examines price distortions and environmental externalities associated with agricultural policies.
+
+:::

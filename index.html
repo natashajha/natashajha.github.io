@@ -2241,6 +2241,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --bkgd-color:       #2750913d;                 /* edited */
   }
 
+  d-article {
+  grid-template-columns: [screen-start] 1fr [text-start kicker-end] 2% 2% 2% 2% 2% 2% 2% 2% [text-end gutter-start] 2% [middle-end] 2% [page-end gutter-end] 1fr [screen-end];
+  grid-column-gap: 10%;
+  }
+
+
   /*-- Additional custom styles --*/
 
   ul > li::marker {
@@ -2497,24 +2503,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<div class="float-image">
 <div class="layout-chunk" data-layout="l-body">
-<style type="text/css">
-h1, h4 {
-  text-align: center;
-}
-</style>
+<p><img src="images/natasha.jpg" width="25%" style="float:left; padding:10px" /></p>
 </div>
-<center>
-<img src="images/natasha.jpg" style="width:40%;" >
-</center>
-<p>
- 
-</p>
 <p><left>
 Hi!
 </left></p>
 <p>My name is Natasha Jha. I am a postdoctoral research associate with the <a href="https://kellogg.nd.edu/about/outreach-initiatives/ford-program-human-development-studies-and-solidarity" target="_blank">Ford Program in Human Development Studies and Solidarity</a> at the <a href="https://kellogg.nd.edu/" target="_blank">Kellogg Institute For International Studies</a>. I received my PhD from Cornell University in 2023.</p>
 <p>I am a development economist whose research primarily focuses on human capital formation, gender, and the role of social norms. Some of my research also examines price distortions and environmental externalities associated with agricultural policies.</p>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
