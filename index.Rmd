@@ -7,12 +7,12 @@ site: distill::distill_website
 
 :::float-image
 
-```{r out.width='25%', out.extra='style="float:left; padding:10px"', echo=FALSE}
-knitr::include_graphics("images/natasha.jpg")
+```{r out.width='25%', out.extra='style="float:left; padding:6px"', echo=FALSE}
+knitr::include_graphics("images/natashamuz.jpeg")
 ```
 
 I am a postdoctoral research associate with the [Ford Program in Human Development Studies and Solidarity](https://kellogg.nd.edu/about/outreach-initiatives/ford-program-human-development-studies-and-solidarity){target="_blank"} at the [Kellogg Institute For International Studies](https://kellogg.nd.edu/){target="_blank"}. I received my PhD from Cornell University in 2023. 
 
-I am a development economist whose research primarily focuses on human capital formation, gender, and the role of social norms. Some of my research also examines price distortions and environmental externalities associated with agricultural policies.
+I am an economist with research interests in development and labor economics, focusing on human capital formation, gender disparities, and the role of social norms in shaping economic outcomes. Additionally, my research explores price distortions and environmental impacts stemming from agricultural policies.
 
 :::
