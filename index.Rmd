@@ -1,19 +1,100 @@
-
 ---
-title: "Natasha Jha" 
+title: "Natasha Jha"
 site: distill::distill_website
 ---
 
+```{css echo=FALSE}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap');
 
-:::float-image
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #1a1a18;
+  background: #faf9f6;
+}
 
-```{r out.width='25%', out.extra='style="float:left; padding:6px"', echo=FALSE}
-knitr::include_graphics("images/natashamuz.jpeg")
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 4rem;
+  align-items: start;
+  padding-top: 2rem;
+}
+
+.home-photo img {
+  width: 220px;
+  height: 270px;
+  object-fit: cover;
+}
+
+.home-bio .position {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #2d5a3d;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.home-bio h1 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: #1a1a18;
+}
+
+.home-bio p {
+  font-size: 0.95rem;
+  line-height: 1.85;
+  color: #4a4a44;
+  margin-bottom: 1rem;
+}
+
+.home-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.75rem;
+  flex-wrap: wrap;
+}
+
+.home-links a {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a8a82;
+  text-decoration: none;
+  border: 1px solid #ddddd5;
+  padding: 0.4rem 0.9rem;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.home-links a:hover {
+  border-color: #2d5a3d;
+  color: #2d5a3d;
+}
 ```
-Welcome! I am an Assistant Professor at the Centre for Advanced Financial Research and Learning (CAFRAL), an organization promoted by the Reserve Bank of India. I received my PhD in Economics from Cornell University in 2023 and previously spent time at the University of Notre Dame as a postdoctoral researcher.
 
+<div class="home-grid">
+<div class="home-bio">
+<p class="position">Assistant Professor · CAFRAL, Reserve Bank of India</p>
+
+# Natasha Jha
+
+Welcome! I am an Assistant Professor at the Centre for Advanced Financial Research and Learning (CAFRAL), an organization promoted by the Reserve Bank of India. I received my PhD in Economics from Cornell University in 2023 and previously spent time at the University of Notre Dame as a postdoctoral researcher.
 
 As an economist, my work focuses on development and labor economics, with interests in human capital formation, gender disparities, and the role of social norms in shaping economic outcomes. Additionally, my research explores price distortions and environmental impacts stemming from agricultural policies.
 
+<div class="home-links">
+<a href="mailto:natasha.jha@cafral.org.in">Email</a>
+<a href="https://twitter.com/NatashaJha_42">Twitter / X</a>
+<a href="https://www.linkedin.com/in/natasha-jha-3b9a4b7a">LinkedIn</a>
+</div>
+</div>
 
-:::
+<div class="home-photo">
+```{r echo=FALSE}
+knitr::include_graphics("images/natashamuz.jpeg")
+```
+</div>
+</div>
